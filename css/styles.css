@@ -64,8 +64,11 @@ h3 {
     color:#404BBF;
 }
 
-.address-link {
+address {
     font-style: normal;
+}
+
+.address-link {
     color: #434455;
 }
 /* #endregion */
