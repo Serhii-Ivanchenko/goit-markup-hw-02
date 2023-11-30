@@ -3,9 +3,13 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 
 a {
+    font-style: normal;
+    color: #434455;
     text-decoration: none;
 }
 
@@ -27,5 +31,19 @@ ul, ol {
 
 .logo-accent {
     color: #4D5AE5;
+}
+/* #endregion */
+
+/* #region Navigation */
+.nav-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-link:hover, .address-link:hover,
+.nav-link:focus, .address-link:focus,
+.nav-link-active {
+    color:#404BBF;
 }
 /* #endregion */
