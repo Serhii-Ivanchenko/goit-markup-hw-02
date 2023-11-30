@@ -8,8 +8,6 @@ body {
 }
 
 a {
-    font-style: normal;
-    color: #434455;
     text-decoration: none;
 }
 
@@ -57,12 +55,18 @@ h3 {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
+    text-decoration: none;
 }
 
 .nav-link:hover, .address-link:hover,
 .nav-link:focus, .address-link:focus,
 .nav-link-active {
     color:#404BBF;
+}
+
+.address-link {
+    font-style: normal;
+    color: #434455;
 }
 /* #endregion */
 
