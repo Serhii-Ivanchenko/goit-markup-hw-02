@@ -47,3 +47,31 @@ ul, ol {
     color:#404BBF;
 }
 /* #endregion */
+
+/* #region Hero */
+.hero {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
+.hero-button {
+    color:#FFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    background-color: #4D5AE5;
+    cursor: pointer
+}
+
+.hero-button:hover, .hero-button:focus {
+    background-color: #404BBF;
+}
+/* #endregion */
